@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    margin: 0;
+    background-image: url(https://raw.githubusercontent.com/meabhisingh/animated-navbar/main/sky-5375005.jpg);
+    background-size: cover;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    width: 100vmax;
+    height: 100vmax;
+    top: 0%;
+    left: 0%;
+    z-index: -10000;
+    background-image: url(https://raw.githubusercontent.com/meabhisingh/animated-navbar/main/sky-5375005.jpg);
+    background-size: cover;
+    opacity: 0.7;
+}
+nav{
+    background-color:white;
+    width: 70vmax;
+    height: 4vmax;
+    margin: 4vmax auto;
+    display: flex;
+    border-radius: 0.2vmax;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > a{
+    border: 1px solid salmon;
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto";
+    height: 4vmax;
+    width: 14vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    border-radius: 0.2vmax;
+    transition: all 0.5s;
+}
+
+
+#ac{
+    color: crimson;
+}
+.highlighter{
+    background-color: crimson;
+    height: 5vmax;
+    width: 12vmax;
+    position: absolute;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.arrow{
+    clip-path: polygon(50% 18%, 0 0, 100% 0);
+    background-color: crimson;
+    position: absolute;
+    width: 1.5rem;
+    height: 2vmax;
+    top: 4vmax;
+    transition: all 0.5s;
+}
