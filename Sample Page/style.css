@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./bgimg.jpg);
+    margin: 0;
+    height: 110vh;
+}
+
+header{
+    color: white;
+    position: sticky;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.logo{
+    display: inline-block;
+    width: 160px;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: salmon;
+}
+
+.navbar{
+    display: inline-block;
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.navbar>a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+#homie{
+    color: aqua;
+}
+
+.navbar>a:hover{
+    color:  salmon;
+}
+
+
+.heading{
+    color: aqua;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    width: 500px;
+}
+
+.heading+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    width: 500px;
+    left: 70px;
+    top: 66px;
+    font-size: 40px;
+}
+
+.heading+h3+p{
+    color: white;
+    position: relative;
+    top: 90px;
+    left: 80px;
+    width: 400px;
+    word-spacing: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-family: 'Roboto'
+}
+
+.btn{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    width: 150px;
+    padding: 15px;
+    font-size: 15px;
+    color: black;
+    background-color: aqua;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.05s;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(52, 50, 50);
+}
+
+footer{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
